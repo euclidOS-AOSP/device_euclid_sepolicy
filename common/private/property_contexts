@@ -16,6 +16,12 @@ ro.euclid.display.version             u:object_r:custom_version_prop:s0
 ro.euclid.build.version               u:object_r:custom_version_prop:s0
 ro.euclid.releasetype                 u:object_r:custom_version_prop:s0
 
+# Dolby Properties
+ro.vendor.dolby.dax.version            u:object_r:exported_system_prop:s0
+ro.vendor.audio.dolby.dax.support      u:object_r:exported_system_prop:s0
+ro.vendor.audio.dolby.dax.version      u:object_r:exported_system_prop:s0
+ro.vendor.audio.dolby.surround.enable  u:object_r:exported_system_prop:s0
+
 # Radio
 ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
 
