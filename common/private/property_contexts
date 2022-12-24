@@ -20,6 +20,12 @@ ro.euclid.releasetype                 u:object_r:custom_version_prop:s0
 persist.vendor.nfc.config_file_name    u:object_r:vendor_persist_nfc_prop:s0 exact string
 persist.vendor.nfc.fw_file_name        u:object_r:vendor_persist_nfc_prop:s0 exact string
 
+# Dolby Properties
+ro.vendor.dolby.dax.version            u:object_r:exported_system_prop:s0
+ro.vendor.audio.dolby.dax.support      u:object_r:exported_system_prop:s0
+ro.vendor.audio.dolby.dax.version      u:object_r:exported_system_prop:s0
+ro.vendor.audio.dolby.surround.enable  u:object_r:exported_system_prop:s0
+
 # Recovery battery
 ro.recovery.batteryless                u:object_r:recovery_config_prop:s0 exact bool
 
