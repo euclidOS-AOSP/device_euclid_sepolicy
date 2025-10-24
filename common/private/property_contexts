@@ -14,7 +14,14 @@ bluetooth.hci.erroneous_data_reporting.enabled        u:object_r:bluetooth_confi
 # Custom legal URL
 ro.lineagelegal.url                    u:object_r:legal_url_prop:s0
 
-# Custom version
+# Custom version (euclid)
+ro.euclid.device                      u:object_r:custom_version_prop:s0
+ro.euclid.build.version               u:object_r:custom_version_prop:s0
+ro.euclid.display.version             u:object_r:custom_version_prop:s0
+ro.euclid.version                     u:object_r:custom_version_prop:s0
+
+# Custom version (lineage)
+ro.lineage.device                      u:object_r:custom_version_prop:s0
 ro.lineage.version                     u:object_r:custom_version_prop:s0
 ro.lineage.display.version             u:object_r:custom_version_prop:s0
 ro.lineage.build.version               u:object_r:custom_version_prop:s0
